@@ -7,14 +7,19 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.2337, 41.0215, -14.7952)
 size = Vector3(1, 83.4491, 7.53388)
 
 [node name="loay" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.0972, 9.65059, -69.4411)
-size = Vector3(63.8955, 31.2193, 34.8734)
+transform = Transform3D(0.0492753, -0.998785, 0.000465582, 0.997816, 0.0492481, 0.044018, -0.0439874, -0.00170443, 0.999031, -37.8255, 22.8384, 54.9219)
+size = Vector3(48.2845, 31.2193, 34.8734)
 
 [node name="CSGCylinder3D" type="CSGCylinder3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0226932, 10.6494, 19.8746)
 radius = 12.5938
 height = 8.23657
 
+
 [node name="loay1" type="CSGBox3D" parent="."]
 transform = Transform3D(0.102706, 0.987317, -0.121062, -0.992725, 0.0940504, -0.0751747, -0.0628353, 0.127903, 0.989794, 19.2555, 57.5518, -120.081)
 size = Vector3(58.5094, 33.4059, 64.1506)
+
+[node name="Mainplatform" type="CSGBox3D" parent="."]
+size = Vector3(150, 1, 150)
+
