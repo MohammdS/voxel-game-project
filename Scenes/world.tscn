@@ -15,5 +15,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0226932, 10.6494, 19.8746)
 radius = 12.5938
 height = 8.23657
 
+
+[node name="loay1" type="CSGBox3D" parent="."]
+transform = Transform3D(0.102706, 0.987317, -0.121062, -0.992725, 0.0940504, -0.0751747, -0.0628353, 0.127903, 0.989794, 19.2555, 57.5518, -120.081)
+size = Vector3(58.5094, 33.4059, 64.1506)
+
 [node name="Mainplatform" type="CSGBox3D" parent="."]
 size = Vector3(150, 1, 150)
+
