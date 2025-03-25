@@ -6,7 +6,7 @@
 transform = Transform3D(-0.0521965, 0.998637, 0, -0.998637, -0.0521965, 0, 0, 0, 1, 34.8751, -6.62964, 24.6118)
 size = Vector3(169.75, 14.2593, 149.224)
 
-[node name="CSGBox3D2" type="CSGBox3D" parent="."]
+[node name="CSGBox3D3" type="CSGBox3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.8751, 0, 24.6118)
 size = Vector3(169.75, 1, 149.224)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.712646, 0)
