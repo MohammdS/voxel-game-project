@@ -19,3 +19,11 @@ in this commit I went throw a tutorial of making a basic minecraft game, it was 
 
 2/4/2025 | total time: 10 hours
 ========================================================================================================================================
+commit 3:
+we did a meeting, me and my partner after consulting with two people who have experince in developping video games, we tried to explain to them what we want to do and
+took advices from them, after the meeting we reached to the idea of the game, we want to make a multiplater game, 1 v 1, with random weapons, abilites get down in specefic time
+which have a limited time to use, and we will add some fun idea to the game, like in the phisics of the ammo and other ideas that could come in our way, 
+we bought a course in udemy that teach godot by building 3d games and it should help us, I started in the course and made some progress, I had busy time this period due to other courses homeworks 
+thats why i didnt make a big progress this weeks
+26/4/2025 | total time 10 hours
+=========================================================================================================================================== 
