@@ -38,3 +38,10 @@ But I have to admit moving around on the island and trying the features I implem
 #### total time ~ 20 hours
 
 ***
+### 29/04
+this week I had meeting with my partner to discuss the game we are going to develop after a while of brain storming and pruning ideas we settled on the 1v1 multiplayer fps, we also had two meetings with two expert developers from the industry who work on indie games they gave us a good insight about the work and the game we are developing they also recommended trying some small voxel games to get inspirations from, so now the goal is set and we should start learning the tools and embark on making our game, I started watching some youtube tutorials about making multiplayer games in godot and I found out that godot have some built in multiplayer nodes and methods to support online gaming which is a good sign but the thing is all the tutorials I watched on youtube are super fast and doesn't clarify the work they are doing and the meaning of it, so we bought a udemy course that teaches godot step by step and I already started learning from there.
+
+#### total time ~ 10hours
+
+***
+
