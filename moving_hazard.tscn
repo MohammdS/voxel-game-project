@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://2kg761nf4gm4"]
+
+[ext_resource type="Script" uid="uid://7w0la8sb3yyn" path="res://moving_hazard.gd" id="1_4hbcv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5tffm"]
+albedo_color = Color(0.867676, 0.958656, 0.000322669, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_4hbcv"]
+size = Vector3(3, 3, 3)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_akx1y"]
+points = PackedVector3Array(-1.5, -1.49971, -1.49971, 1.5, 1.49978, 1.49978, 1.5, -1.49978, 1.49978, 1.5, 1.49978, -1.49978, -1.5, 1.49971, 1.49971, 1.5, -1.49978, -1.49978, -1.5, -1.49971, 1.49971, -1.5, 1.49971, -1.49971)
+
+[node name="MovingHazard" type="AnimatableBody3D" groups=["Hazard"]]
+script = ExtResource("1_4hbcv")
+destination = Vector3(0, 20, 0)
+duration = 2.0
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_5tffm")
+mesh = SubResource("BoxMesh_4hbcv")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_akx1y")
