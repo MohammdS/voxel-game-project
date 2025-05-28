@@ -46,7 +46,17 @@ this week I had meeting with my partner to discuss the game we are going to deve
 ***
 ### until 13/05
 in the past two weeks I was learning more about godot from a course on udemy and it was very helpful and informative yet I still feel like there is a lot I don't know, I have learned the basics and got a good undertstanding of how games are built from small parts which get composed together, but to build a good game you should pay attention to details and try to make it feel alive as much as possible and game engines are full of tricks and tools to help do this and i'm pretty sure it need a lot more than one project to be good at it during the course I was working on a game about launching a rocket from a  pad and landing it on another one here what I have done so far
-started with a simple Rigidbody node as a player and torque and thrust properties to it 
-and then created another scene which will be the first level we will start in, added a floor and made it a group named Hazard this will help us identify the objects we want the game to stop when the player hit them I also added two launching pads to the scene one for  respawning and another as a goal also added the built in worldEnviroment and the directional lighting to the scene and a fixed camera the overview the floor with the pads, I added a godotScript to make the level reset when hitting a Hazard object also added the script for the rocket movement after that I added sounds and particles effect for the rocket and scripted them to play when hitting or pressing the spacebar to make the rocket launching experience feel more real like in the end I duplicated the level scene and modified it to create more challenging scenes and instantiated the player scene into them in the next steps I'll add more effects and visuals to make the game feel more real and pleasant 
+started with a simple Rigidbody node as a player and torque and thrust properties to it and connected them to wasd and arrows keys
+  ![Basic player](assets/rigidbodyp.png)
+
+and then created another scene which will be the first level we will start in, added a floor and made it a group named Hazard this will help us identify the objects we want the game to stop when the player hit them I also added two launching pads to the scene one for  respawning and another as a goal also added the built in worldEnviroment and the directional lighting to the scene and a fixed camera the overview the floor with the pads
+ ![Level 0](assets/scene0.png)
+
+I added a godotScript to make the level reset when hitting a Hazard object also added the script for the rocket movement after that I added sounds and particles effect for the rocket and scripted them to play when hitting or pressing the spacebar to make the rocket launching experience feel more real like.
+ ![particles effect](assets/particlese.png)
+
+In the end I duplicated the level scene and modified it to create more challenging scenes and instantiated the player scene into them
+
+In the next steps I'll add more effects and visuals to make the game feel more real and pleasant 
 #### total time ~ 15 hours
 
