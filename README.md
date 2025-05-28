@@ -1,5 +1,5 @@
 # voxel-game-project
-## A voxel based game with godot for a university project (Mohammd Progress)
+## A voxel based game with godot for a university project (Mohammad Progress)
 ***
 ### 26/03
 This was our first session starting to work on our project which is a voxel based game (Minecraft like) using Godot game engine,
@@ -61,4 +61,20 @@ In the end I duplicated the level scene and modified it to create more challengi
 
 In the next steps I'll add more effects and visuals to make the game feel more real and pleasant 
 #### total time ~ 15 hours
+
+***
+### until 26/05
+couldn't do much in the past two weeks for being busy with other courses hw's and stuffs but overall I updated the rocket launcher game and added more details and effect to enhance the game experience 
+I created a simple rocket like mesh instead of the cylinder also added more thrust effects and made them sync with turning left and right to make the process of rotating feel more real and pleasant
+ ![Rocket mesh](assets/rocket.png)
+
+also added destruction and winning effects for when hitting or landing on the goal pad respectively 
+after that created a background scene to be used in all levels to add more challenge and enhance the experience
+ ![background design](assets/background.png)
+
+with this I can say I'm almost done with this game project, I learned a lot about godot and the game development process working on it and should be kind of ready for more complex project in the rest of the week I was watching youtube videos about making 1v1 shooting games and making them online because it will help with making our main game idea.
+#### total time~ 8 hours
+
+***
+
 
