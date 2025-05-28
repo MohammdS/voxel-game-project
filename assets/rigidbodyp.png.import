@@ -2,27 +2,26 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhvu30upuhllj"
-path.s3tc="res://.godot/imported/Rail_Incline_Atlas.png-bd19a58a60d88dabfba0379fab7799da.s3tc.ctex"
+uid="uid://wdvb6pcmkp4k"
+path="res://.godot/imported/rigidbodyp.png-696bde1faa10b0a22abffcd622467aa7.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
-source_file="res://Enviroment/Rail_Incline_Atlas.png"
-dest_files=["res://.godot/imported/Rail_Incline_Atlas.png-bd19a58a60d88dabfba0379fab7799da.s3tc.ctex"]
+source_file="res://assets/rigidbodyp.png"
+dest_files=["res://.godot/imported/rigidbodyp.png-696bde1faa10b0a22abffcd622467aa7.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
@@ -32,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1
