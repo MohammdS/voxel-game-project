@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3sua1avk0yc5"
+uid="uid://6x1dq6ndb35g"
 path.s3tc="res://.godot/imported/DeadTree_3_Atlas.png-c6322c072ed235c18ad4ab4901d82188.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "3795851c85c1d7fbaf0b3b63054ec153"
 }
 
 [deps]
