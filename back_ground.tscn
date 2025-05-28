@@ -1,0 +1,51 @@
+[gd_scene load_steps=2 format=3 uid="uid://dycikpwhyrbfr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4rlqi"]
+albedo_color = Color(0.531439, 0.377156, 0.199523, 1)
+
+[node name="Floor" type="CSGBox3D" groups=["Hazard"]]
+use_collision = true
+size = Vector3(40, 8, 4)
+material = SubResource("StandardMaterial3D_4rlqi")
+
+[node name="Wall" type="CSGBox3D" parent="." groups=["Hazard"]]
+transform = Transform3D(0.319687, 0.947523, 0, -0.947523, 0.319687, 0, 0, 0, 1, -17.9563, 7.72807, 0)
+use_collision = true
+size = Vector3(10, 4, 4)
+material = SubResource("StandardMaterial3D_4rlqi")
+
+[node name="Wall2" type="CSGBox3D" parent="." groups=["Hazard"]]
+transform = Transform3D(-0.530319, 0.847798, 0, -0.847798, -0.530319, 0, 0, 0, 1, -17.9563, 12.9845, 0)
+use_collision = true
+size = Vector3(10, 4, 4)
+material = SubResource("StandardMaterial3D_4rlqi")
+
+[node name="Wall3" type="CSGBox3D" parent="." groups=["Hazard"]]
+transform = Transform3D(0.996115, -0.0880598, 0, 0.0880598, 0.996115, 0, 0, 0, 1, -12.4538, 16.8807, 0)
+use_collision = true
+size = Vector3(10, 4, 4)
+material = SubResource("StandardMaterial3D_4rlqi")
+
+[node name="Wall4" type="CSGBox3D" parent="." groups=["Hazard"]]
+transform = Transform3D(0.974205, -0.225665, 0, 0.225665, 0.974205, 0, 0, 0, 1, -3.02491, 18.4413, 0)
+use_collision = true
+size = Vector3(15, 4, 4)
+material = SubResource("StandardMaterial3D_4rlqi")
+
+[node name="Wall5" type="CSGBox3D" parent="." groups=["Hazard"]]
+transform = Transform3D(0.900903, 0.434021, 0, -0.434021, 0.900903, 0, 0, 0, 1, 6.73908, 17.7968, 0)
+use_collision = true
+size = Vector3(15, 4, 4)
+material = SubResource("StandardMaterial3D_4rlqi")
+
+[node name="Wall6" type="CSGBox3D" parent="." groups=["Hazard"]]
+transform = Transform3D(0.459347, 0.888257, 0, -0.888257, 0.459347, 0, 0, 0, 1, 13.3784, 14.2164, 0)
+use_collision = true
+size = Vector3(8, 4, 4)
+material = SubResource("StandardMaterial3D_4rlqi")
+
+[node name="Wall7" type="CSGBox3D" parent="." groups=["Hazard"]]
+transform = Transform3D(-0.0827734, 0.996569, 0, -0.996569, -0.0827734, 0, 0, 0, 1, 17.3275, 7.13271, 0)
+use_collision = true
+size = Vector3(8, 4, 4)
+material = SubResource("StandardMaterial3D_4rlqi")

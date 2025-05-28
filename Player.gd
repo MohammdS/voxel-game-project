@@ -11,6 +11,10 @@ extends RigidBody3D
 @onready var rocket_thrust_audio: AudioStreamPlayer3D = $RocketThrustAudio
 @onready var level_passed_audio: AudioStreamPlayer = $LevelPassedAudio
 @onready var booster_particles: GPUParticles3D = $BoosterParticles
+@onready var left_particles: GPUParticles3D = $LeftParticles
+@onready var right_particles: GPUParticles3D = $RightParticles
+@onready var success_particles: GPUParticles3D = $SuccessParticles
+@onready var explosion_particles: GPUParticles3D = $ExplosionParticles
 
 var is_transistion: bool = false
 
@@ -27,9 +31,15 @@ func _process(delta: float) -> void:
 		booster_particles.emitting = false
 	if Input.is_action_pressed("rotate_right"):
 		apply_torque(Vector3(0,0,-torque_thrust * delta))
+		left_particles.emitting = true
+	else: 
+		left_particles.emitting= false
 
 	if Input.is_action_pressed("rotate_left"):
 		apply_torque(Vector3(0,0,torque_thrust * delta))
+		right_particles.emitting =true
+	else:
+		right_particles.emitting = false
 
 
 func _on_body_entered(body: Node) -> void:
@@ -42,6 +52,7 @@ func _on_body_entered(body: Node) -> void:
 			
 func crash() -> void:
 	print("Crashed!!!")
+	explosion_particles.emitting = true
 	explosion_sound.play()
 	set_process(false)
 	is_transistion = true
@@ -52,6 +63,7 @@ func crash() -> void:
 	
 func level_complete(next_level_file: String) -> void:
 	print("Level Passed!")
+	success_particles.emitting = true
 	level_passed_audio.play()
 	set_process(false)
 	is_transistion = true
