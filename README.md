@@ -56,6 +56,8 @@ I added a godotScript to make the level reset when hitting a Hazard object also 
  ![particles effect](assets/particlese.png)
 
 In the end I duplicated the level scene and modified it to create more challenging scenes and instantiated the player scene into them
+ ![level 1](assets/level1.png)
+ ![level 2](assets/level2.png)
 
 In the next steps I'll add more effects and visuals to make the game feel more real and pleasant 
 #### total time ~ 15 hours
