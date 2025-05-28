@@ -71,8 +71,10 @@ I created a simple rocket like mesh instead of the cylinder also added more thru
 also added destruction and winning effects for when hitting or landing on the goal pad respectively 
 after that created a background scene to be used in all levels to add more challenge and enhance the experience
  ![background design](assets/background.png)
-with this I can say I'm almost done with this game project, I learned a lot about godot and the game development process working on it and should be kind of ready for more complex project in the rest of the week I was watching youtube videos about making 1v1 shooting games and making them online because it will help with making our main game idea.
-total time~ 8 hours
 
+with this I can say I'm almost done with this game project, I learned a lot about godot and the game development process working on it and should be kind of ready for more complex project in the rest of the week I was watching youtube videos about making 1v1 shooting games and making them online because it will help with making our main game idea.
+#### total time~ 8 hours
+
+***
 
 
