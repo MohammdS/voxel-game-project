@@ -1,5 +1,5 @@
 # voxel-game-project
-## A voxel based game with godot for a university project (Mohammd Progress)
+## A voxel based game with godot for a university project (Mohammad Progress)
 ***
 ### 26/03
 This was our first session starting to work on our project which is a voxel based game (Minecraft like) using Godot game engine,
