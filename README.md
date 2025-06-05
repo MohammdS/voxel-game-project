@@ -1,2 +1,14 @@
 # voxel-game-project
 A voxel based game with godot for a university project 
+***
+By the end of this development phase, we had successfully built a functioning voxel world prototype using Godot. We started by designing a dedicated block scene and using it to construct a custom island in a world scene. These blocks were textured using assets from free online sources. To enhance the environment, we added natural elements such as trees, bushes, and rocks, along with visual effects like fog and a transparent blue overlay to simulate water. Alongside the environment, we developed a basic 3D player controller using a capsule mesh that supports movement and interaction, including the ability to place and remove blocks. Static object detection was used to distinguish interactable objects in the scene, enabling interaction with the terrain.
+Additionally, we developed a simple user interface that displays control buttons during gameplay, providing users with guidance on how to interact with the game.
+![image](https://github.com/user-attachments/assets/abea5f7c-d998-442d-9ad8-eedb9bee0776)
+![UiControl](https://github.com/user-attachments/assets/ac17ba1b-4b69-426d-b99f-a371ba0af538)
+
+Moreover, we developed a separate physics-based mini-game centered around launching and landing a rocket. This game used a Rigidbody node for the rocket and implemented physics-based movement using torque and thrust. Two types of pads were added—one for spawning and the other as a goal—along with level reset logic triggered by collision with hazard objects. We created multiple levels to introduce progressive challenge, and we enhanced the game experience by adding sound effects, particles, and a simple rocket-shaped mesh model that visually responds to directional inputs with thrust effects. We also implemented victory and defeat effects for landing or crashing. A reusable background scene was created and used across levels for consistency and improving visuals.
+![rocket3](https://github.com/user-attachments/assets/d7c8ba0a-b07b-4502-8941-ac118a658919)
+![rocket6](https://github.com/user-attachments/assets/5b734490-f7d2-41d3-a6ab-360a8c3046ce)
+
+Throughout the project, we got really comfortable with how Godot scene system works. At first it was a bit confusing, but over time we figured out how to split the game into small, manageable parts—like scenes for the player, the world, and the UI and how to make them all interact with each other. This made everything more organized and easier to test and change. We also wrote a lot of GDScript to handle things like movements, placing and removing blocks, restarting levels, and adding effects like particles and sounds. One thing that took us a while to get right was managing game states—like what happens when you crash, or when you win a level—but once we understood how to use signals and switch scenes properly, it started to click. It felt great to see all the pieces come together and actually work.
+***
